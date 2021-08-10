@@ -1,0 +1,54 @@
+@import "sources/styles/variables.scss";
+
+.pathContainer {
+  max-width: 451px !important;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: rgb(226, 226, 226);
+  height: 70px;
+  border-radius: $border-radius;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logoImg {
+    height: 100%;
+    width: 100%;
+    max-height: 40px;
+    max-width: 40px;
+  }
+  .cardTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    overflow: hidden;
+    max-height: 42px;
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 18px;
+    }
+    .description {
+      max-height: 30px;
+      overflow: hidden;
+      font-size: 12px;
+      opacity: 0.6;
+      line-height: 12px;
+    }
+  }
+  .pathSize {
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+    position: relative;
+    .nextIcon {
+      position: absolute;
+      right: -30px;
+      top:10px;
+      max-height: 15px;
+      max-width: 15px;
+    }
+  }
+}

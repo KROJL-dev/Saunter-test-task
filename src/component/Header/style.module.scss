@@ -1,0 +1,38 @@
+@import 'sources/styles/variables.scss';
+
+.header {
+  height: 13vh;
+  max-width: 100%;
+  border-bottom: $grey solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logoPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    .logoImg {
+      height: 100%;
+      width: 100%;
+      max-height: 40px;
+      max-width: 40px;
+    }
+    .logoText{
+        line-height: 50px;
+        font-size: 55px;
+        padding-bottom: 6px;
+    }
+  }
+  .addPathBtn{
+      background-color: $blue;
+      border-radius: $border-radius;
+      color: $white;
+      width: 150px;
+      height: 40px;
+      font-weight: 800;
+      outline: none;
+      border:none;
+      font-size: 20px;
+  }
+}
