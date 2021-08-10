@@ -19,6 +19,7 @@
     "react-google-maps": "^9.4.5",
     "react-hook-google-maps": "0.0.1",
     "react-scripts": "4.0.3",
+    "recompose": "^0.30.0",
     "saas": "^1.0.0",
     "typescript": "^4.3.5",
     "web-vitals": "^1.0.1"
@@ -49,6 +50,7 @@
   },
   "devDependencies": {
     "@types/googlemaps": "^3.43.3",
+    "@types/recompose": "^0.30.8",
     "mobx-remotedev": "^0.3.6"
   }
 }
